@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BunFire</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="h-removebg-preview.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+           
+        </nav>     
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>BunFire</h3>
+            <p>Get ready for a sizzling journey of burger bliss at BunFire - where every bite ignites your taste buds</p>
+            <a href="#menu" class="btn">Check our menu</a>
+        </div>
+
+    </section>
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="about-img.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Welcome to BunFire, where every bite is a burst of flavor!</h3>
+                <p>At BunFire, we're all about crafting delicious burgers using the freshest ingredients and creative flair. From classic favorites to unique creations, there's something for every burger lover here. Join us for a flame-grilled experience that's sure to delight your taste buds!</p>
+                
+                <a href="#contact" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> our <span>menu</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="smoky.jpeg" alt="">
+                <h3>Smoky Chipotle Burger</h3>
+                <div class="price">8$</div>
+                
+               
+            </div>
+
+            <div class="box">
+                <img src="teryaiki.jpeg" alt="">
+                <h3>Teriyaki Chicken Burger</h3>
+                <div class="price">7$</div>
+               
+            </div>
+
+            <div class="box">
+                <img src="avocado.jpeg" alt="">
+                <h3>Avocado Ranch Burger</h3>
+                <div class="price">10.5$</div>
+               
+            </div>
+
+            <div class="box">
+                <img src="mushswiss.jpeg" alt="">
+                <h3>Mushroom Swiss Burger</h3>
+                <div class="price">9$</div>
+                
+            </div>
+
+            <div class="box">
+                <img src="spicy.jpeg" alt="">
+                <h3>Spicy Jalapeño Burger</h3>
+                <div class="price">5.5$</div>
+              
+            </div>
+
+            <div class="box">
+                <img src="baconbbq.jpeg" alt="">
+                <h3>Bacon BBQ Burger</h3>
+                <div class="price">6.5$</div>
+               
+            </div>
+            <div class="box">
+                <img src="chesseburger.jpeg" alt="">
+                <h3>Classic Cheeseburger</h3>
+                <div class="price">4$</div>
+              
+            </div>
+            <div class="box">
+                <img src="greeklamb.jpeg" alt="">
+                <h3>Greek Lamb Burger</h3>
+                <div class="price">9$</div>
+              
+            </div>
+            <div class="box">
+                <img src="veggie.jpeg" alt="">
+                <h3>Veggie Delight Burger</h3>
+                <div class="price">6.5$</div>
+               
+            </div>
+            <div class="box">
+                <img src="fries.avif" alt="">
+                <h3>Fries</h3>
+                <div class="price">4.5$</div>
+            </div>
+            <div class="box">
+                <img src="wedges.avif" alt="">
+                <h3>Wedges</h3>
+                <div class="price">4$</div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <div class="row">
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="php/contact.php" method="post">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name" name="username">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email" name="userEmail">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number" name="userPhone">
+                </div>
+                <button type="button" class="btn" onclick="openPopup()">contact now</button>
+                
+            </form>
+
+        </div>
+
+    </section>
+
+   <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="credit"><span>Hania SeifEldeen</span> | All Rights Reserved</div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
